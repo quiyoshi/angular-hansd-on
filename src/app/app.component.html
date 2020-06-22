@@ -1,6 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<mat-card class="todo-card">
+  <mat-card-title>
+    {{ title }}
+  </mat-card-title>
 
-<app-todo-form (add)="addTodo($event)"></app-todo-form>
-<app-todo-list [todoList]="todoList"></app-todo-list>
+  <mat-card-content>
+    <app-todo-form (add)="addTodo($event)"></app-todo-form>
+    <app-todo-list [todoList]="todoList"></app-todo-list>
+  </mat-card-content>
+</mat-card>
