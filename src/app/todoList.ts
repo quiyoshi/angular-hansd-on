@@ -3,7 +3,7 @@ import { Todo } from './todo';
 export const todoList: Todo[] = [
   {
     title: 'Get started Angular',
-    completed: false
+    completed: true
   },
   {
     title: 'Write an article',
@@ -14,7 +14,7 @@ export const todoList: Todo[] = [
     completed: true
   },
   {
-    title: 'Kazuya',
-    completed: true
+    title: 'System Data',
+    completed: false
   }
 ];
